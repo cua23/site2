@@ -1,0 +1,26 @@
+td, th{
+    border: solid red 2px;
+    padding: 10px;
+    text-align: center;
+}
+.tabla table{
+    margin: 10px auto;
+}
+h2{
+    text-align: center;
+}
+.pi{
+    background-color: wheat;
+    
+}
+form{
+    text-align: center;
+}
+.bgdiv{
+    background-color: wheat;
+    padding-bottom: 20px;
+}
+#boton{
+    background-color: wheat;
+    font-size: 25px;
+}

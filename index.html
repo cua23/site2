@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="./resources/css/styles.css"> 
+        <!-- ./ -> Posiciono en directorio actual (carpeta: denuevo10) -->
+    <title>grimsjetai>>></title>
+</head>
+<body>
+    <h2>Aplicación para Gastos</h2>
+    <div class="row">
+        <div class="tabla col l5 s12 offset-l2">
+            <table id="tablita">
+                <tr>
+                    <th>
+                        Tipo
+                    </th>
+                    <th>
+                        Descripción
+                    </th>
+                    <th>
+                        Monto
+                    </th>
+                    <th>
+                        Categoría
+                    </th>
+                    <th>
+                        Eliminar
+                    </th>
+                </tr>
+                
+            </table>
+        </div>
+        <div class="col l4  s12 pi">
+            <div class= "col s10 offset-s2">
+                <form id="idform">
+                    <div class="bgdiv">
+                        
+                        <p>
+                            <span>Transacción</span> 
+                            <label>
+                                <i class="material-icons"> account_balance_wallet</i>
+                            <input class="with-gap" name="sino" type="radio" checked value = "ing" />
+                            <span>Ingreso</span>
+                            </label>
+                            <label>
+                            <input class="with-gap" name="sino" type="radio" value = "egr">
+                            <span>Egreso</span>
+                            </label>
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col s12 bgdiv input-field">
+                            <label for="campo2">Descripción</label>
+                            <input id = "campo2" name="campo2" type="text" class="validate">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12 bgdiv input-field">
+                            <label for="campo3">Monto</label>
+                            <input id = "campo3" type="number" name="campo3" class="validate">
+                        </div>
+                    </div>
+                    <!-- <div class="row">
+                    <div class="bgdiv input-field col s6">
+                        <input id="campo2" name= campo2 type="text" class="validate">
+                        <label for="campo2">Descripción</label>
+                        </div>
+                    </div>
+                    <div class="bgdiv input-field col s6">
+                        <input id="campo3" name= campo3 type="number" class="validate">
+                        <label for="campo3">Monto</label>
+                        </div>
+                    </div>
+                    </div> -->
+                    <div class="row">
+                        <div class=" col s12 bgdiv">
+                            <label for="campo4">Categoría</label>
+                            <select class="browser-default" id ="campo4" name="campo4">
+                                <!-- <option value="" disabled selected>Elige la Categoría</option>
+                                <option value = "Comida">Comida</option>
+                                <option value = "Alquiler">Alquiler</option>
+                                <option value = "Trabajo">Trabajo</option> -->
+                            </select>
+                        </div>
+                    </div>
+                    <div class="bgdiv">
+                    <button class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>Ingresar</button>
+                    
+
+
+
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="resources/js/scripts.js"></script>
+</body>
+</html>
